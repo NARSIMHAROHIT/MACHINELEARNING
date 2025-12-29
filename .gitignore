@@ -1,31 +1,27 @@
-# ================= DATA =================
+# ===== DATA =====
+ETL/DATA/
 *.csv
 *.parquet
-ETL/DATA/
-data/
-datasets/
 
-# ================= ML ARTIFACTS =================
-ETL/artifacts/
-ETL/mlruns/
-ETL/mlflow.db
-models/
-*.pkl
-*.joblib
-*.h5
-
-# ================= JUPYTER =================
-.ipynb_checkpoints/
-
-# ================= ENV =================
+# ===== VIRTUAL ENVIRONMENTS =====
 venv/
 .venv/
 env/
+*/venv/
 */llmops-env/
 
-# ================= PYTHON =================
+# ===== PYTHON =====
 __pycache__/
 *.pyc
 
-# ================= OS =================
+# ===== ML ARTIFACTS =====
+ETL/artifacts/
+ETL/mlruns/
+ETL/mlflow.db
+*.pkl
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+
+# ===== OS =====
 .DS_Store
