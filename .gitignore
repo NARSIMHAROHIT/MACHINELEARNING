@@ -1,0 +1,19 @@
+# Data (never commit)
+ETL/DATA/
+data/
+datasets/
+*.csv
+*.parquet
+
+# Environments
+venv/
+.venv/
+env/
+*/llmops-env/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
